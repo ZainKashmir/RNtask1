@@ -1,9 +1,12 @@
 {
+  "homepage":"http://ZainKashmir.github.io/RNtask1",
   "name": "task1",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
